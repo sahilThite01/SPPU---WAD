@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Mobile</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+<!-- HOMEPAGE -->
+    <div data-role="page" id="homepage">
+        <div data-role="header">
+            <h1>JQuery Mobile</h1>            
+        </div>
+
+        <!-- NAVBAR -->
+        <div data-role="navbar" data-grid="a">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>  
+
+        <!-- CONTENT HOMEPAGE -->
+        <div data-role="content" id="homepage">
+            <center><h1 data-role="header">List of Hotels</h1></center>
+            <a href="#Taj"><button>Taj Hotel</button></a>
+            <a href="#Panchami"><button>Hotel Panchami</button></a>
+            <a href="#Shree-Hari"><button>Hotel Shree Hari</button></a>
+            <a href="#Navratna"><button>Hotel Navtarna</button></a>            
+        </div>
+
+        <!-- CONTENT ABOUT -->
+        <div data-role="page" id="about">
+            <center><p style="padding-left: 60px; padding-right: 60px;">This Page was designed to provide users the knowledge about the per day charges of booking a single room in the hotels present in the locality</p></center>
+        </div>
+
+        <!-- FOOTER -->
+        <div data-role="content">
+            <div data-role="footer">
+                <h3>Footer</h3>
+                <center>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </center>
+            </div>
+        </div>
+    </div>
+<!-- /HOMEPAGE -->
+
+<!-- HOTELS INFO -->
+    <div data-role="page" id="Taj">
+        <center>
+            <div data-role="header"><h1>Taj Hotel</h1></div>
+            <img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/12/15/Pictures/_9f2b6346-ffd3-11e8-9457-b1b429387a4e.jpg" alt="" style="width: 90%;">
+            <p style="text-align: center; padding-left: 60px; padding-right: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores iste eveniet tempora debitis consequatur! Veritatis earum cupiditate nesciunt, illo mollitia modi! Laudantium excepturi qui ad ex, veritatis, molestiae nesciunt impedit corporis labore eum cupiditate ut perspiciatis commodi, ducimus harum blanditiis numquam facilis incidunt est praesentium. Esse reiciendis amet perspiciatis sed voluptates, expedita rerum quam. Minima, dolores expedita! Dolorum suscipit maiores ea exercitationem mollitia commodi deleniti veniam debitis! Natus quisquam minus accusamus a. Nulla ut repellat nobis veritatis eos deleniti quis similique unde perspiciatis non, fugiat dolore, tempore modi deserunt commodi quod tenetur voluptatum excepturi ratione alias. Eos dolorum minima amet magnam repellendus consequuntur et vel omnis distinctio ea. Iure nihil natus aperiam quidem vel quibusdam sapiente sint voluptas, quasi, id eius distinctio. Eum saepe ipsum, iste, nisi animi nobis ratione laudantium ad odit, at enim voluptatibus dicta repellendus neque maxime illo vel sequi dolor nihil. Reprehenderit labore laboriosam sed.</p>
+            <h4>Price: ₹115000 per day</h4>
+            <div data-role="footer">
+                <center><a href="#homepage"><button>Go Home</button></a></center>
+            </div>
+        </center>
+    </div>
+
+    <div data-role="page" id="Panchami">
+        <center>
+            <div data-role="header"><h1>Hotel Panchami</h1></div>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/af/41/5d/photo0jpg.jpg" alt="" style="width: 90%;">
+            <p style="text-align: center; padding-left: 60px; padding-right: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores iste eveniet tempora debitis consequatur! Veritatis earum cupiditate nesciunt, illo mollitia modi! Laudantium excepturi qui ad ex, veritatis, molestiae nesciunt impedit corporis labore eum cupiditate ut perspiciatis commodi, ducimus harum blanditiis numquam facilis incidunt est praesentium. Esse reiciendis amet perspiciatis sed voluptates, expedita rerum quam. Minima, dolores expedita! Dolorum suscipit maiores ea exercitationem mollitia commodi deleniti veniam debitis! Natus quisquam minus accusamus a. Nulla ut repellat nobis veritatis eos deleniti quis similique unde perspiciatis non, fugiat dolore, tempore modi deserunt commodi quod tenetur voluptatum excepturi ratione alias. Eos dolorum minima amet magnam repellendus consequuntur et vel omnis distinctio ea. Iure nihil natus aperiam quidem vel quibusdam sapiente sint voluptas, quasi, id eius distinctio. Eum saepe ipsum, iste, nisi animi nobis ratione laudantium ad odit, at enim voluptatibus dicta repellendus neque maxime illo vel sequi dolor nihil. Reprehenderit labore laboriosam sed.</p>
+            <h4>Price: ₹2000 per day</h4>
+            <div data-role="footer">
+                <center><a href="#homepage"><button>Go Home</button></a></center>
+            </div>
+        </center>
+    </div>
+
+    <div data-role="page" id="Shree-Hari">
+        <center>        
+            <div data-role="header"><h1>Hotel Shree Hari</h1></div>
+            <img src="https://www.mappls.com/place/Z0JUC3_1649229950841_0.jpeg" alt="" style="width: 90%;">
+            <p style="text-align: center; padding-left: 60px; padding-right: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores iste eveniet tempora debitis consequatur! Veritatis earum cupiditate nesciunt, illo mollitia modi! Laudantium excepturi qui ad ex, veritatis, molestiae nesciunt impedit corporis labore eum cupiditate ut perspiciatis commodi, ducimus harum blanditiis numquam facilis incidunt est praesentium. Esse reiciendis amet perspiciatis sed voluptates, expedita rerum quam. Minima, dolores expedita! Dolorum suscipit maiores ea exercitationem mollitia commodi deleniti veniam debitis! Natus quisquam minus accusamus a. Nulla ut repellat nobis veritatis eos deleniti quis similique unde perspiciatis non, fugiat dolore, tempore modi deserunt commodi quod tenetur voluptatum excepturi ratione alias. Eos dolorum minima amet magnam repellendus consequuntur et vel omnis distinctio ea. Iure nihil natus aperiam quidem vel quibusdam sapiente sint voluptas, quasi, id eius distinctio. Eum saepe ipsum, iste, nisi animi nobis ratione laudantium ad odit, at enim voluptatibus dicta repellendus neque maxime illo vel sequi dolor nihil. Reprehenderit labore laboriosam sed.</p>
+            <h4>Price: ₹2000 per day</h4>
+            
+            <div data-role="footer">
+                <center><a href="#homepage"><button>Go Home</button></a></center>
+            </div>
+        </center>
+    </div>
+
+    <div data-role="page" id="Navratna">
+        <center>
+            <div data-role="header"><h1>Hotel Navratna</h1></div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcdyWep6yQDOOABSSGlgNCEmA2FlxZiVx9R1epAmRBQ&s" alt="" style="width: 90%;">
+            <p style="text-align: center; padding-left: 60px; padding-right: 60px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae asperiores iste eveniet tempora debitis consequatur! Veritatis earum cupiditate nesciunt, illo mollitia modi! Laudantium excepturi qui ad ex, veritatis, molestiae nesciunt impedit corporis labore eum cupiditate ut perspiciatis commodi, ducimus harum blanditiis numquam facilis incidunt est praesentium. Esse reiciendis amet perspiciatis sed voluptates, expedita rerum quam. Minima, dolores expedita! Dolorum suscipit maiores ea exercitationem mollitia commodi deleniti veniam debitis! Natus quisquam minus accusamus a. Nulla ut repellat nobis veritatis eos deleniti quis similique unde perspiciatis non, fugiat dolore, tempore modi deserunt commodi quod tenetur voluptatum excepturi ratione alias. Eos dolorum minima amet magnam repellendus consequuntur et vel omnis distinctio ea. Iure nihil natus aperiam quidem vel quibusdam sapiente sint voluptas, quasi, id eius distinctio. Eum saepe ipsum, iste, nisi animi nobis ratione laudantium ad odit, at enim voluptatibus dicta repellendus neque maxime illo vel sequi dolor nihil. Reprehenderit labore laboriosam sed.</p>
+            <h4>Price: ₹4000 per day</h4>
+            <div data-role="footer">
+                <center><a href="#homepage"><button>Go Home</button></a></center>
+            </div>
+        </center>
+    </div>
+<!-- /HOTELS INFO -->
+
+</body>
+</html>
